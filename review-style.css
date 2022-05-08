@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+body{
+    background: rgba(100, 100,100, 0.3);
+}
+header{
+    position: relative;
+    background:  rgb(13, 196, 196);
+    border-bottom: 2px solid rgb(80, 62, 62);
+    box-shadow: 0px 2px 12px 5px rgba(20, 20, 20, 0.274);
+}
+#menu-items{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;  
+}
+li{
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    /* width: auto;
+    height: auto; */
+    margin: 0.2rem;
+    padding: 3px;
+    border: 1px solid rgba(43, 37, 37, 0.747);
+    border-radius: 10px;
+    background: rgba(119, 91, 91, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 1;
+    font-weight: bold;
+    transition: color 0.5s, letter-spacing 0.5s ;
+    transition-timing-function: ease-in-out;
+}
+a:hover{
+    color: rgb(189, 39, 13);
+    letter-spacing: 0.2em;
+}
+
+
+main{
+    margin-top: 5vh;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 2em;
+    font-style: italic;
+}
+.title, .container{
+    position: relative;
+}
+.underline{
+    width: 100px;
+    height: 4px;
+    background: aqua;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.profile{
+    height: 150px;
+    border-radius: 60%;
+    border-right: aqua 4px solid;
+    border-left: aqua 4px solid;
+    box-shadow: 0px 2px 5px 3px rgba(15, 189, 180, 0.123);
+}
+.review{
+    width: 500px;
+    text-align: justify;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, +5%);
+    padding: 10px;
+    background: rgb(255, 253, 253);
+    border-radius: 10px;
+    box-shadow: 0px 2px 12px 5px rgba(20, 20, 20, 0.274);
+}
+#author, #job, #info{
+    margin: 5px;
+}
+#author{
+    text-transform: capitalize;
+    font-size: 1.2em;
+    font-family: fantasy;
+}
+#job{
+    font-family:cursive;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: aqua;   
+}
+#button-left, #button-right {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-style: none;
+    color:rgb(15, 212, 226);
+    background-color: rgba(235, 225, 225, 0);
+    padding: 0.25rem;
+    cursor: pointer;
+}
+#random-btn{
+    text-transform: capitalize;
+    color:rgb(15, 212, 226);
+    background-color: rgba(235, 225, 225, 0.616);
+    padding: 0.25rem;
+    border-radius: 20px;
+    border: 0.10rem solid rgb(14, 222, 230);
+    font-weight: bold;
+    cursor:pointer;
+}
